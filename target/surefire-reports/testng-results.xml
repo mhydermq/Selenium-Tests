@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9208" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:18Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="9208" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:18Z">
+      <class name="webdriverNavigation.AlertExampleTest">
+        <test-method status="PASS" signature="alertExampleTest()" name="alertExampleTest" duration-ms="8401" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertExampleTest -->
+      </class> <!-- webdriverNavigation.AlertExampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
