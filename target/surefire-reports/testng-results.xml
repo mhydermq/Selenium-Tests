@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="9208" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:18Z">
+  <suite name="Surefire suite" duration-ms="36877" started-at="2020-06-30T18:55:21Z" finished-at="2020-06-30T18:55:58Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="9208" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:18Z">
+    <test name="Surefire test" duration-ms="36877" started-at="2020-06-30T18:55:21Z" finished-at="2020-06-30T18:55:58Z">
+      <class name="webdriverNavigation.ConfirmTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.ConfirmTest@327471b5]" name="setupTest" is-config="true" duration-ms="6444" started-at="2020-06-30T18:55:30Z" finished-at="2020-06-30T18:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="ConfirmExampleTest()[pri:0, instance:webdriverNavigation.ConfirmTest@327471b5]" name="ConfirmExampleTest" duration-ms="539" started-at="2020-06-30T18:55:37Z" finished-at="2020-06-30T18:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.ConfirmTest@327471b5]" name="quitDriver" is-config="true" duration-ms="892" started-at="2020-06-30T18:55:37Z" finished-at="2020-06-30T18:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- webdriverNavigation.ConfirmTest -->
+      <class name="webdriverNavigation.PromptTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.PromptTest@4157f54e]" name="setupTest" is-config="true" duration-ms="13181" started-at="2020-06-30T18:55:38Z" finished-at="2020-06-30T18:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="PromptExampleTest()[pri:0, instance:webdriverNavigation.PromptTest@4157f54e]" name="PromptExampleTest" duration-ms="787" started-at="2020-06-30T18:55:51Z" finished-at="2020-06-30T18:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PromptExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.PromptTest@4157f54e]" name="quitDriver" is-config="true" duration-ms="5664" started-at="2020-06-30T18:55:52Z" finished-at="2020-06-30T18:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- webdriverNavigation.PromptTest -->
       <class name="webdriverNavigation.AlertExampleTest">
-        <test-method status="PASS" signature="alertExampleTest()" name="alertExampleTest" duration-ms="8401" started-at="2020-06-26T01:45:09Z" finished-at="2020-06-26T01:45:17Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.AlertExampleTest@3567135c]" name="setupTest" is-config="true" duration-ms="4701" started-at="2020-06-30T18:55:21Z" finished-at="2020-06-30T18:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="alertExampleTest()[pri:0, instance:webdriverNavigation.AlertExampleTest@3567135c]" name="alertExampleTest" duration-ms="3840" started-at="2020-06-30T18:55:26Z" finished-at="2020-06-30T18:55:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.AlertExampleTest@3567135c]" name="quitDriver" is-config="true" duration-ms="809" started-at="2020-06-30T18:55:30Z" finished-at="2020-06-30T18:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
       </class> <!-- webdriverNavigation.AlertExampleTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

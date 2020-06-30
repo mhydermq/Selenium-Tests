@@ -1,14 +1,17 @@
 package webdriverNavigation;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
  
@@ -50,7 +53,8 @@ public class PromptTest {
         driver.switchTo().alert().accept();
  
         //Assertion
-        assertThat("Hello SW Test Academy! How are you today?",is(actualPromptMessage.getText()));
+        //assertThat("Hello SW Test Academy! How are you today?",is(actualPromptMessage.getText()));
+        Assert.assertEquals(actualPromptMessage.getText(),"Hello SW Test Academy! How are you today?");
     }
  
     //Close Driver

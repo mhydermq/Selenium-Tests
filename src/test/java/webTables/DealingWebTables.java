@@ -1,5 +1,8 @@
 package webTables;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -8,13 +11,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 //selenium easy
 public class DealingWebTables {
 	
 	static WebDriver driver;
+		@BeforeMethod
 		@BeforeClass
 		public static void setUp() {
 			WebDriverManager.firefoxdriver().setup();		
@@ -53,6 +56,7 @@ public class DealingWebTables {
 			System.out.println("Number of columns in table is: " + tableColumns.size());
 		}
            		
+		@AfterMethod
 		@AfterClass
 		public static void tearDown() {
 		driver.quit();

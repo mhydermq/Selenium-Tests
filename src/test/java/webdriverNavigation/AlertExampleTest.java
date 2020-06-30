@@ -1,18 +1,19 @@
 package webdriverNavigation;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+
+
+
  
 
 
@@ -29,7 +30,7 @@ public class AlertExampleTest {
     }
  
     @Test
-    public void alertExampleTest() {
+    public void alertExampleTest() throws NullPointerException {
         //Navigate to URL
         driver.navigate().to(url);
         driver.manage().window().maximize();
@@ -38,6 +39,7 @@ public class AlertExampleTest {
         //all elements located in this iframe
         //It will be described in next topics
         driver.switchTo().frame("iframeResult");
+       
  
         //Find "Try it" button
         WebElement alertButton = 
@@ -53,7 +55,7 @@ public class AlertExampleTest {
         String actualAlertMessage = driver.switchTo().alert().getText();
  
         //Assertion
-        assertThat(expectedAlertMessage,is(actualAlertMessage));
+        Assert.assertEquals(actualAlertMessage,expectedAlertMessage);
  
         //Accept the alert (Click OK)
         driver.switchTo().alert().accept();

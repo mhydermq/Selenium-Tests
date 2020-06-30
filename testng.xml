@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Test Suite">
+  <test name="uiTests">
+    <classes>
+      <class name="webdriverNavigation.AlertExampleTest"/>
+      <class name="webTables.DealingWebTables"/>
+      <class name="webdriverNavigation.PromptTest"/>
+      <class name="webdriverNavigation.ConfirmTest"/>
+    </classes>
+  </test> <!-- uiTests -->
+</suite> <!-- UI Test Suite -->

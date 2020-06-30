@@ -1,18 +1,18 @@
 package webdriverNavigation;
 
-import org.junit.AfterClass;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
 
 
  
@@ -22,7 +22,7 @@ public class ConfirmTest {
  
     //Setup Driver
     @BeforeClass
-    public static void setupTest() {
+    public static void setupTest() throws NullPointerException{
     	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         //Navigate to URL
@@ -54,7 +54,7 @@ public class ConfirmTest {
         driver.switchTo().alert().accept();
  
         //Assertion
-        assertThat("You pressed OK!",is(actualConfirmMessage.getText()));
+        Assert.assertEquals(actualConfirmMessage.getText(),"You pressed OK!");
  
         //******************************
         // Dismiss Test (Test Scenario-2)
@@ -67,7 +67,7 @@ public class ConfirmTest {
         driver.switchTo().alert().dismiss();
  
         //Assertion
-        assertThat("You pressed Cancel!",is(actualConfirmMessage.getText()));
+        Assert.assertEquals(actualConfirmMessage.getText(),"You pressed Cancel!");
     }
  
     //Close Driver
