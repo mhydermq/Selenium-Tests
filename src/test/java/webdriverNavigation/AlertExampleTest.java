@@ -25,8 +25,7 @@ public class AlertExampleTest {
     @BeforeClass
     public static void setupTest() {
     	WebDriverManager.chromedriver().setup();
-    	 
-        driver = new ChromeDriver();
+    	         driver = new ChromeDriver();
     }
  
     @Test
