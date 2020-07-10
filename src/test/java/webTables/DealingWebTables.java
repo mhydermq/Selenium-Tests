@@ -1,8 +1,7 @@
 package webTables;
 
-import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -16,10 +15,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //selenium easy
 public class DealingWebTables {
 	
-	static WebDriver driver;
-		@BeforeMethod
+	    WebDriver driver;
+	
 		@BeforeClass
-		public static void setUp() {
+		public void setUp() {
 			WebDriverManager.firefoxdriver().setup();		
 			driver = new FirefoxDriver();
 		driver.get("https://www.seleniumeasy.com/test/table-sort-search-demo.html");
@@ -56,9 +55,9 @@ public class DealingWebTables {
 			System.out.println("Number of columns in table is: " + tableColumns.size());
 		}
            		
-		@AfterMethod
+		
 		@AfterClass
-		public static void tearDown() {
+		public void tearDown() {
 		driver.quit();
 		}
 }

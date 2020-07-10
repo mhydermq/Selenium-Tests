@@ -12,11 +12,6 @@ import org.testng.Assert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-
-
- 
-
-
 public class AlertExampleTest {
     static WebDriver driver;
     private String url = 
@@ -24,7 +19,7 @@ public class AlertExampleTest {
  
     //Setup Driver
     @BeforeClass
-    public static void setupTest() {
+    public void setupTest() {
     	WebDriverManager.chromedriver().setup();
     	         driver = new ChromeDriver();
     }
@@ -63,7 +58,7 @@ public class AlertExampleTest {
  
     //Close Driver
     @AfterClass
-    public  static void quitDriver() {
+    public void quitDriver() {
         driver.quit();
     }
 }

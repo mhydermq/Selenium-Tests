@@ -22,7 +22,7 @@ public class PromptTest {
  
     //Setup Driver
     @BeforeClass
-    public static void setupTest() {
+    public void setupTest() {
     	WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         //Navigate to URL
@@ -59,7 +59,7 @@ public class PromptTest {
  
     //Close Driver
     @AfterClass
-    public static void quitDriver() {
+    public void quitDriver() {
         driver.quit();
     }
 }

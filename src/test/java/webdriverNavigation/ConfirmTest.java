@@ -22,7 +22,7 @@ public class ConfirmTest {
  
     //Setup Driver
     @BeforeClass
-    public static void setupTest() throws NullPointerException{
+    public void setupTest() throws NullPointerException{
     	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         //Navigate to URL
@@ -72,7 +72,7 @@ public class ConfirmTest {
  
     //Close Driver
     @AfterClass
-    public static void quitDriver() {
+    public void quitDriver() {
         driver.quit();
     }
 }
