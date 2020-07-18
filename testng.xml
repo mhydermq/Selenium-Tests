@@ -7,6 +7,10 @@
       <class name="webTables.DealingWebTables"/>
       <class name="webdriverNavigation.PromptTest"/>
       <class name="webdriverNavigation.ConfirmTest"/>
+      <class name="javaScriptExecutorGeeks.POpupAlert"/>
+      <class name="javaScriptExecutorGeeks.RefreshingBrowser"/>
+      <class name="javaScriptExecutorGeeks.ClickingAButton"/>
+      <class name="javaScriptExecutorGeeks.ScrollTheBrowser"/>     
     </classes>
   </test> <!-- uiTests -->
 </suite> <!-- UI Test Suite -->
