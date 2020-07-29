@@ -10,7 +10,9 @@
       <class name="javaScriptExecutorGeeks.POpupAlert"/>
       <class name="javaScriptExecutorGeeks.RefreshingBrowser"/>
       <class name="javaScriptExecutorGeeks.ClickingAButton"/>
-      <class name="javaScriptExecutorGeeks.ScrollTheBrowser"/>     
+      <class name="javaScriptExecutorGeeks.ScrollTheBrowser"/>
+      <class name="actionsClass.DoubleClick"/>  
+           
     </classes>
   </test> <!-- uiTests -->
 </suite> <!-- UI Test Suite -->

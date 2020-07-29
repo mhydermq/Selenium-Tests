@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22510" started-at="2020-07-18T20:32:42Z" finished-at="2020-07-18T20:33:04Z">
+  <suite name="Default suite" duration-ms="18549" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22510" started-at="2020-07-18T20:32:42Z" finished-at="2020-07-18T20:33:04Z">
-      <class name="javaScriptExecutorGeeks.ScrollTheBrowser">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@ae45eb6]" name="setDriver" is-config="true" duration-ms="11545" started-at="2020-07-18T20:32:42Z" finished-at="2020-07-18T20:32:53Z">
+    <test name="Default test" duration-ms="18549" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
+      <class name="actionClass.DoubleClick">
+        <test-method status="PASS" signature="doubleClick()[pri:0, instance:actionClass.DoubleClick@46d56d67]" name="doubleClick" duration-ms="18533" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="scrollPage()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@ae45eb6]" name="scrollPage" duration-ms="188" started-at="2020-07-18T20:32:53Z" finished-at="2020-07-18T20:32:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollPage -->
-        <test-method status="PASS" signature="atEnd()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@ae45eb6]" name="atEnd" is-config="true" duration-ms="10750" started-at="2020-07-18T20:32:54Z" finished-at="2020-07-18T20:33:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- atEnd -->
-      </class> <!-- javaScriptExecutorGeeks.ScrollTheBrowser -->
+        </test-method> <!-- doubleClick -->
+      </class> <!-- actionClass.DoubleClick -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
