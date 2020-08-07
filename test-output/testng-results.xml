@@ -1,17 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9251" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
+  <suite name="UI Test Suite" duration-ms="195855" started-at="2020-08-07T06:52:49Z" finished-at="2020-08-07T06:56:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9251" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
-      <class name="javaScriptExecutorGeeks.HIghLight">
-        <test-method status="PASS" signature="highLightElement()[pri:0, instance:javaScriptExecutorGeeks.HIghLight@46d56d67]" name="highLightElement" duration-ms="9210" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
+    <test name="uiTests" duration-ms="195855" started-at="2020-08-07T06:52:49Z" finished-at="2020-08-07T06:56:05Z">
+      <class name="javaScriptExecutorGeeks.HighLight">
+        <test-method status="PASS" signature="highLightElement()[pri:0, instance:javaScriptExecutorGeeks.HighLight@3c87521]" name="highLightElement" duration-ms="10067" started-at="2020-08-07T06:55:30Z" finished-at="2020-08-07T06:55:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highLightElement -->
-      </class> <!-- javaScriptExecutorGeeks.HIghLight -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- javaScriptExecutorGeeks.HighLight -->
+      <class name="javaScriptExecutorGeeks.POpupAlert">
+        <test-method status="PASS" signature="jspopUp()[pri:0, instance:javaScriptExecutorGeeks.POpupAlert@55ca8de8]" name="jspopUp" duration-ms="28" started-at="2020-08-07T06:55:25Z" finished-at="2020-08-07T06:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspopUp -->
+      </class> <!-- javaScriptExecutorGeeks.POpupAlert -->
+      <class name="webTables.DealingWebTables">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:webTables.DealingWebTables@2ed0fbae]" name="setUp" is-config="true" duration-ms="23717" started-at="2020-08-07T06:54:05Z" finished-at="2020-08-07T06:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTotalColumns()[pri:0, instance:webTables.DealingWebTables@2ed0fbae]" name="getTotalColumns" duration-ms="68" started-at="2020-08-07T06:54:29Z" finished-at="2020-08-07T06:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalColumns -->
+        <test-method status="PASS" signature="getTotalRows()[pri:0, instance:webTables.DealingWebTables@2ed0fbae]" name="getTotalRows" duration-ms="19" started-at="2020-08-07T06:54:29Z" finished-at="2020-08-07T06:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalRows -->
+        <test-method status="PASS" signature="printTable()[pri:0, instance:webTables.DealingWebTables@2ed0fbae]" name="printTable" duration-ms="290" started-at="2020-08-07T06:54:29Z" finished-at="2020-08-07T06:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTables.DealingWebTables@2ed0fbae]" name="tearDown" is-config="true" duration-ms="6217" started-at="2020-08-07T06:54:29Z" finished-at="2020-08-07T06:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTables.DealingWebTables -->
+      <class name="javaScriptExecutorGeeks.ClickingAButton">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:javaScriptExecutorGeeks.ClickingAButton@12d3a4e9]" name="setDriver" is-config="true" duration-ms="6374" started-at="2020-08-07T06:52:49Z" finished-at="2020-08-07T06:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:javaScriptExecutorGeeks.POpupAlert@55ca8de8]" name="setDriver" is-config="true" duration-ms="22447" started-at="2020-08-07T06:52:56Z" finished-at="2020-08-07T06:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:javaScriptExecutorGeeks.RefreshingBrowser@2c34f934]" name="setDriver" is-config="true" duration-ms="6452" started-at="2020-08-07T06:53:18Z" finished-at="2020-08-07T06:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@240237d2]" name="setDriver" is-config="true" duration-ms="22379" started-at="2020-08-07T06:53:25Z" finished-at="2020-08-07T06:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="clickButton()[pri:0, instance:javaScriptExecutorGeeks.ClickingAButton@12d3a4e9]" name="clickButton" duration-ms="4230" started-at="2020-08-07T06:55:26Z" finished-at="2020-08-07T06:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButton -->
+        <test-method status="PASS" signature="atEnd()[pri:0, instance:javaScriptExecutorGeeks.ClickingAButton@12d3a4e9]" name="atEnd" is-config="true" duration-ms="1006" started-at="2020-08-07T06:55:59Z" finished-at="2020-08-07T06:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atEnd -->
+        <test-method status="PASS" signature="atEnd()[pri:0, instance:javaScriptExecutorGeeks.POpupAlert@55ca8de8]" name="atEnd" is-config="true" duration-ms="2445" started-at="2020-08-07T06:56:00Z" finished-at="2020-08-07T06:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atEnd -->
+        <test-method status="PASS" signature="atEnd()[pri:0, instance:javaScriptExecutorGeeks.RefreshingBrowser@2c34f934]" name="atEnd" is-config="true" duration-ms="792" started-at="2020-08-07T06:56:02Z" finished-at="2020-08-07T06:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atEnd -->
+        <test-method status="PASS" signature="atEnd()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@240237d2]" name="atEnd" is-config="true" duration-ms="2469" started-at="2020-08-07T06:56:03Z" finished-at="2020-08-07T06:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atEnd -->
+      </class> <!-- javaScriptExecutorGeeks.ClickingAButton -->
+      <class name="webdriverNavigation.ConfirmTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.ConfirmTest@14a2f921]" name="setupTest" is-config="true" duration-ms="8279" started-at="2020-08-07T06:55:14Z" finished-at="2020-08-07T06:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="ConfirmExampleTest()[pri:0, instance:webdriverNavigation.ConfirmTest@14a2f921]" name="ConfirmExampleTest" duration-ms="1281" started-at="2020-08-07T06:55:23Z" finished-at="2020-08-07T06:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.ConfirmTest@14a2f921]" name="quitDriver" is-config="true" duration-ms="939" started-at="2020-08-07T06:55:24Z" finished-at="2020-08-07T06:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- webdriverNavigation.ConfirmTest -->
+      <class name="javaScriptExecutorGeeks.RefreshingBrowser">
+        <test-method status="PASS" signature="refresh()[pri:0, instance:javaScriptExecutorGeeks.RefreshingBrowser@2c34f934]" name="refresh" duration-ms="1050" started-at="2020-08-07T06:55:25Z" finished-at="2020-08-07T06:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+      </class> <!-- javaScriptExecutorGeeks.RefreshingBrowser -->
+      <class name="javaScriptExecutorGeeks.ScrollTheBrowser">
+        <test-method status="PASS" signature="scrollPage()[pri:0, instance:javaScriptExecutorGeeks.ScrollTheBrowser@240237d2]" name="scrollPage" duration-ms="24" started-at="2020-08-07T06:55:30Z" finished-at="2020-08-07T06:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+      </class> <!-- javaScriptExecutorGeeks.ScrollTheBrowser -->
+      <class name="webdriverNavigation.AlertExampleTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.AlertExampleTest@25a65b77]" name="setupTest" is-config="true" duration-ms="5515" started-at="2020-08-07T06:53:47Z" finished-at="2020-08-07T06:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="alertExampleTest()[pri:0, instance:webdriverNavigation.AlertExampleTest@25a65b77]" name="alertExampleTest" duration-ms="11121" started-at="2020-08-07T06:53:53Z" finished-at="2020-08-07T06:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.AlertExampleTest@25a65b77]" name="quitDriver" is-config="true" duration-ms="1220" started-at="2020-08-07T06:54:04Z" finished-at="2020-08-07T06:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- webdriverNavigation.AlertExampleTest -->
+      <class name="webdriverNavigation.PromptTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:webdriverNavigation.PromptTest@212bf671]" name="setupTest" is-config="true" duration-ms="29259" started-at="2020-08-07T06:54:36Z" finished-at="2020-08-07T06:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="PromptExampleTest()[pri:0, instance:webdriverNavigation.PromptTest@212bf671]" name="PromptExampleTest" duration-ms="565" started-at="2020-08-07T06:55:05Z" finished-at="2020-08-07T06:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PromptExampleTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:webdriverNavigation.PromptTest@212bf671]" name="quitDriver" is-config="true" duration-ms="8926" started-at="2020-08-07T06:55:05Z" finished-at="2020-08-07T06:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- webdriverNavigation.PromptTest -->
+      <class name="actionsClass.DoubleClick">
+        <test-method status="PASS" signature="doubleClick()[pri:0, instance:actionsClass.DoubleClick@2aece37d]" name="doubleClick" duration-ms="18293" started-at="2020-08-07T06:55:40Z" finished-at="2020-08-07T06:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleClick -->
+      </class> <!-- actionsClass.DoubleClick -->
+    </test> <!-- uiTests -->
+  </suite> <!-- UI Test Suite -->
 </testng-results>
