@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class HIghLight {
+public class HighLight {
 	@Test 
 	public void highLightElement() throws InterruptedException {
 		
