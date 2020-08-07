@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18549" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
+  <suite name="Default suite" duration-ms="9251" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18549" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
-      <class name="actionClass.DoubleClick">
-        <test-method status="PASS" signature="doubleClick()[pri:0, instance:actionClass.DoubleClick@46d56d67]" name="doubleClick" duration-ms="18533" started-at="2020-07-29T20:26:22Z" finished-at="2020-07-29T20:26:41Z">
+    <test name="Default test" duration-ms="9251" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
+      <class name="javaScriptExecutorGeeks.HIghLight">
+        <test-method status="PASS" signature="highLightElement()[pri:0, instance:javaScriptExecutorGeeks.HIghLight@46d56d67]" name="highLightElement" duration-ms="9210" started-at="2020-08-07T06:24:25Z" finished-at="2020-08-07T06:24:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClick -->
-      </class> <!-- actionClass.DoubleClick -->
+        </test-method> <!-- highLightElement -->
+      </class> <!-- javaScriptExecutorGeeks.HIghLight -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

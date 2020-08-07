@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaScriptExecutorGeeks.ClickingAButton">
+      <class name="javaScriptExecutorGeeks.HIghLight">
         <methods>
-          <include name="clickButton"/>
-          <include name="setDriver"/>
-          <include name="atEnd"/>
+          <include name="highLightElement"/>
         </methods>
-      </class> <!-- javaScriptExecutorGeeks.ClickingAButton -->
+      </class> <!-- javaScriptExecutorGeeks.HIghLight -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
