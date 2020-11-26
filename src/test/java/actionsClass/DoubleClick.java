@@ -16,7 +16,8 @@ public class DoubleClick {
 	 public void doubleClick() throws InterruptedException{
 	 WebDriverManager.chromedriver().setup();
 	 WebDriver driver = new ChromeDriver();
-	                //Open the required URL where you could do double click action
+	 
+         //Open the required URL where you could do double click action
 	 driver.get("http://api.jquery.com/dblclick/");
 	                //Maximize the browser
 	                driver.manage().window().maximize();
